@@ -709,6 +709,7 @@ color: #F4F4FD;
   padding: 16px 24px 32px 24px;
   transition-duration: var(--hover-trans-duration);
   transition-timing-function: var(--hover-trans-timing-function);
+
 }
 .backdrop.is-hidden.modal{
   transform: scale(0);
@@ -859,7 +860,8 @@ border-color: var(--hover-text-color);
 }
 .modal-form-policy-link{
   color: rgba(77, 90, 229, 1);
-  margin-left: 2px;
+  margin-left: 4px;
+
 }
 
 .modal-form-checkbox:checked +.modal-checkbox-icon{
