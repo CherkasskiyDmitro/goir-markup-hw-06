@@ -857,7 +857,7 @@ border-color: var(--hover-text-color);
   color: rgba(117, 117, 117, 1);
   padding-left: 25px;
 }
-.modal-form-policy a{
+.modal-form-policy-link{
   color: rgba(77, 90, 229, 1);
   margin-left: 2px;
 }
