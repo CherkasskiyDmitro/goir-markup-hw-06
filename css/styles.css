@@ -859,7 +859,7 @@ border-color: var(--hover-text-color);
 }
 .modal-form-policy a{
   color: rgba(77, 90, 229, 1);
-  margin-left: 4px;
+  margin-left: 2px;
 }
 
 .modal-form-checkbox:checked +.modal-checkbox-icon{
