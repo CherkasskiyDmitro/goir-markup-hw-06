@@ -421,6 +421,7 @@ button{
 }
 .footer-list{
   display: flex;
+
 }
 .footer-container-logo {
   list-style: none;
@@ -462,12 +463,19 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 }
+
+.footer-container-list-link{
+  padding-right: 0px;
+  width: 208px;
+}
 .footer-social-list{
   display: flex;
   gap: 16px;
   list-style: none;
   margin-top: 16px;
+  margin-right: 0px;
 }
+
 .footer-social-list-link{
   display: flex;
   justify-content: center;
@@ -494,11 +502,13 @@ color: #FFFFFF;
 .footer-subscribe-list{
   display: flex;
   flex-direction: column;
+  margin-left: 80px;
+
+
 }
 .footer-form{
   display: inline-flex;
-  padding-top: 16px;
-
+  margin-top: 16px;
 }
 .footer-form-mail{
   width: 264px;
@@ -536,7 +546,7 @@ color: rgba(255, 255, 255, 0.6);
   height: 40px;
   background-color: rgba(77, 90, 229, 1);
   border-radius: 4px;
-  margin-left: 24px;
+  margin-left: 26px;
   transition-property: background-color;
   transition-duration: var(--hover-trans-duration);
   transition-timing-function: var(--hover-trans-timing-function);
@@ -807,6 +817,8 @@ transition-duration: var(--hover-trans-duration);
 transition-timing-function: var(--hover-trans-timing-function);
 resize: none;
 outline: none;
+padding-left: 16px;
+padding-top:8px;
 }
 .modal-form-rectagle-text:focus{
 border-color: var(--hover-text-color);
@@ -883,8 +895,6 @@ font-size: 12px;
 line-height: 1.33;
 letter-spacing: 0.04em;
 color: rgba(117, 117, 117, 0.5);
-padding-top: 8px;
-padding-left: 16px;
 }
 
 .modal-form-button{
